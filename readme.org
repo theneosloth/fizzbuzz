@@ -1,0 +1,3 @@
+#+TITLE: Fizzbuzz Experiments
+
+I find that writing a simple fizzbuzz in a few different styles is a good way to learn the basic syntax and options of a language. From now on whenever I try to learn a new language I'm going to write a couple of different fizzbuzz implementations and throw the results in here.
