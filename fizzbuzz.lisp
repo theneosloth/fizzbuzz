@@ -24,12 +24,9 @@
   "Returns T if NUM is divisible by DIVISOR, NIL otherwise."
   (zerop (mod num divisor)))
 
-(defun fizzbuzz-recursive-optimized (n ls)
-  "Tail optimized implementation. Builds up the cons list of fizzbuzz values up to N in LS"
-  )
 
-(defun fizzbuzz-recursive-optimized-helper (n)
-  "Calls the tail optimized implementation."
+(defun fizzbuzz-recursive-optimized (n)
+  "Tail optimized implementation."
   (labels ((fizzbuzz (n ls)
              (cond
                ((zerop n) ls)
